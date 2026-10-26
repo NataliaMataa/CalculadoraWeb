@@ -25,16 +25,24 @@
             <asp:DropDownList ID="doperacion" runat="server">
                <asp:ListItem>Suma</asp:ListItem>
                <asp:ListItem>Resta</asp:ListItem>
+                <asp:ListItem>Multiplicación</asp:ListItem>
+                <asp:ListItem>División</asp:ListItem>
+                <asp:ListItem>Potencias 2</asp:ListItem>
+                <asp:ListItem>Expo</asp:ListItem>
 
             </asp:DropDownList>
             <br />
+            <asp:CheckBox ID="Csuma" runat="server" Text="Suma" />
             <br />
-            <asp:RadioButton ID="rsuma" runat="server" Text="Suma" GroupName="operaciones" />
+            <asp:CheckBox ID="Cresta" runat="server" Text="Resta" />
             <br />
-            <asp:RadioButton ID="rresta" runat="server" Text="Resta" GroupName="operaciones" />
+            <asp:CheckBox ID="Cmultiplicacion" runat="server" Text="Multiplicación" />
             <br />
+            <asp:CheckBox ID="Cdivision" runat="server" Text="División" />
             <br />
+            <asp:CheckBox ID="Cpotencia" runat="server" Text="Potencias 2" />
             <br />
+            <asp:CheckBox ID="Cexpo" runat="server" Text="Expo" />
             <br />
             <br />
             <asp:Button ID="bresultado" runat="server" Height="30px" Text="Aceptar" Width="100px" OnClick="bresultado_Click" />
